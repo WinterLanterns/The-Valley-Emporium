@@ -19,11 +19,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #00baf0;
+  background-color: #d8e021;
   background: #d8e021;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fff;
-  height: 100px;
+  height: 80px;
   padding: 1em;
 }
 
@@ -31,6 +31,7 @@ body {
   width: 150px;
   justify-content: center;
   margin-top: auto;
+  z-index: 1;
 }
 
 .menu {
@@ -41,11 +42,24 @@ body {
   padding: 0;
   align-items: center;
   justify-content: center;
+  z-index: 1;
 }
 
+/* spacing of the fonts  */
+
 .menu > li {
-  margin: 0 1rem;
+  margin: 0 2rem;
   overflow: hidden;
+}
+
+.under-banner {
+  content: "";
+  background: url(https://i.ibb.co/3zWbQFP/Untitled-Artwork-15.png) repeat-x
+    scroll center 0px;
+  position: absolute;
+  top: 30px;
+  height: 80px;
+  width: 100%;
 }
 
 .menu-button-container {

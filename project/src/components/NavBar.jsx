@@ -37,6 +37,7 @@ function Navbar() {
           <li>Five</li>
         </ul>
       </section>
+      <div className="under-banner"></div>
     </>
   );
 }
