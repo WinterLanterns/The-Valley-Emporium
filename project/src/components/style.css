@@ -48,7 +48,7 @@ body {
 /* spacing of the fonts  */
 
 .menu > li {
-  margin: 0 2rem;
+  margin: 2rem;
   overflow: hidden;
 }
 
@@ -153,12 +153,13 @@ body {
   .menu > li {
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding-top: 10px;
+    margin: 15px;
+    padding: 0px;
     padding: 0.5em 0;
     width: 100%;
     color: white;
     background-color: #222;
+    border: none;
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
