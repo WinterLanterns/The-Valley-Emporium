@@ -1,0 +1,32 @@
+export const sliderItems = [
+  {
+    id: 1,
+    img: "https://i.ibb.co/092qH86/delicious-cookies-with-glass-milk.jpg",
+    img2: "https://i.ibb.co/YPHh7JN/311892459-3312077702399339-6095252552274926153-n.jpg",
+    title: "CHOCOMIL LAUNCH",
+    desc: "DON'T MISS ON THESE SWEET DEALS! JUST SELL YOUR SOUL TO ME.",
+    bg: "292929",
+    bder: "https://i.ibb.co/dfTDzBz/Untitled-Artwork-9.png",
+    bgcir: "F8CB2E",
+  },
+  {
+    id: 2,
+    img: "https://i.ibb.co/LZRqpLf/pig-bread.jpg",
+    img2: "https://i.ibb.co/3Nj31dd/326345485-722326815912398-3235447982887425479-n.jpg",
+    title: "DEALS EVERYWHERE!",
+    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    bg: "F4BFBF",
+    bder: "https://i.ibb.co/dfTDzBz/Untitled-Artwork-9.png",
+    bgcir: "006E7F",
+  },
+  {
+    id: 3,
+    img: "https://i.ibb.co/jfcT4Wd/top-view-cupcakes-with-pink-icing-23-2148815866-copy.png",
+    img2: "https://i.ibb.co/1JS4G18/326406515-150188664532839-3999745889163489345-n.jpg",
+    title: "HURRY",
+    desc: "WHAT ARE YOU WAITING FOR! STOP WASTING TIME!",
+    bg: "FAF0D7",
+    bder: "https://i.ibb.co/dfTDzBz/Untitled-Artwork-9.png",
+    bgcir: "D4F6CC",
+  },
+];

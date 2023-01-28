@@ -6,6 +6,7 @@ import Badge from "@mui/material/Badge";
 import { styled } from "@mui/material/styles";
 import IconButton from "@mui/material/IconButton";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import { mobile } from "../responsive";
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
   "& .MuiBadge-badge": {
@@ -19,19 +20,21 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
 const NavLink = styled(Link)`
   color: white;
   text-decoration: none;
-  margin: 5px;
+  margin: auto;
+  padding: 2px;
   cursor: pointer;
   z-index: 5;
-  border-radius: 50px;
   transition: all 0.5s ease-in-out;
   text-transform: uppercase;
-     
+  z-index: 2;
+  border-bottom: solid 2px #2e2e2e;
+  font-weight: 300;
+
   &:hover {
-\    border: solid 5px #d0d74d;
-    border-radius: 50px;
-    background-color: #d0d74d;
+    border-bottom: solid 2px #d0d74d;
     color: white;
   }
+  ${mobile({ border: "none" })}
 `;
 
 function Navbar() {
@@ -39,10 +42,6 @@ function Navbar() {
 
   return (
     <>
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1"
-      ></meta>
       <section className="top-nav">
         <input
           id="menu-toggle"
@@ -67,7 +66,7 @@ function Navbar() {
           <img
             src="https://i.ibb.co/KyNJpVV/Valley-Emporium-logo.png"
             alt="logo"
-            className="logo"
+            className="logo ms-auto"
           />
 
           <li>
